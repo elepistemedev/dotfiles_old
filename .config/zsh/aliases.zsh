@@ -80,3 +80,10 @@ CYGWIN* | MINGW32* | MSYS* | MINGW*)
 	# echo 'Other OS'
 	;;
 esac
+
+# Youtube-DLP
+alias yt='yt-dlp'
+alias yt-ls='yt-dlp -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" '
+
+# Tmux SENTU studio
+alias tmux-sentu='tmux attach-session -t SENTU || tmux new -s SENTU'
